@@ -27,3 +27,8 @@ Business intelligence specialist.
 Functioneel beheerder.
 Informatiearchitect.
 Informatieanalist.
+
+
+business intelligence specialist:
+
+De business intelligence specialist is een expert die verantwoordelijk is voor het verzamelen, analyseren en omzetten van grote hoeveelheden bedrijfsdata in waardevolle inzichten. Hun taken zijn het ontwerpen en beheren van datawarehouses, het bouwen van dashboards en rapportagesystemen die real-time inzichten bieden, en het identificeren van trends en patronen in data. Ze zorgen er ook voor dat gegevens betrouwbaar, nauwkeurig en goed beveiligd zijn. Dit is handig voor het managment voor het bedrijf.
