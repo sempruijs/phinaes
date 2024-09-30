@@ -24,6 +24,6 @@ Informatiemanager (CIO)
 Business consultant.
 Projectleider ICT.
 Business intelligence specialist.
-Functioneel beheerder.
+Functioneel beheerder. (sem)
 Informatiearchitect.
 Informatieanalist.
