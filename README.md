@@ -4,6 +4,8 @@ BIM
 1.	Korte beschrijving van de beroepsrol
 •	Wat houdt de beroepsrol kort in?
 
+Het manage en aansturen van een ontwikkelteam
+
 2.	Carrièrepaden
 •	Welke banen passen bij deze beroepsrol? Denk in functietitels als bijv. "Product Owner" of "Network Engineer"
 •	Geef een zo rijk mogelijke beschrijving van deze banen.
