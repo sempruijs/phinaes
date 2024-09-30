@@ -10,6 +10,7 @@ Het manage en aansturen van een ontwikkelteam
 •	Welke banen passen bij deze beroepsrol? Denk in functietitels als bijv. "Product Owner" of "Network Engineer"
 •	Geef een zo rijk mogelijke beschrijving van deze banen.
 
+<<<<<<< Updated upstream
 Informatiemanager (CIO)
 
 Business consultant.
@@ -23,6 +24,16 @@ Functioneel beheerder. (sem)
 Informatiearchitect.
 
 Informatieanalist.
+=======
+Business consultant, 
+
+Een business consultant geeft bedrijven advies over bedrijfskundige vraagstukken, 
+Het einddoel daarbij is altijd om taken, processen en resultaten binnen het bedrijf.
+business consultants zorgen ook dat bedrijven meegaan met veranderingen.
+zo moeten ze huidige en toekomstige processen in kaart brengen zodat een bedrijf een mooi overzicht heeft.
+Ook zou je processen moeten kunnen optimaliseren. 
+Omdat dit voor elk bedrijf andere processen heeft is het altijd weer anders.
+>>>>>>> Stashed changes
 
 
 3.	Beroepsproducten
