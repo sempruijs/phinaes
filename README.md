@@ -44,6 +44,13 @@ bronnen:
 https://www.profource.com/blog-werken-als-business-consultant/
 
 Informatiemanager (CIO)
+Informatiemanager (CIO) : Een informatie manager speelt een cruciale rol binnen organisaties door ervoor te zorgen dat informatie effectief wordt verzameld, beheerd en benut. Hun taken omvatten het ontwikkelen van strategieën voor informatiebeheer, het implementeren van systemen en technologieën om data te verzamelen en op te slaan, en het waarborgen van de kwaliteit en veiligheid van informatie.
+
+Een informatie manager moet niet alleen technologische vaardigheden bezitten, maar ook inzicht hebben in de bedrijfsprocessen en de behoeften van gebruikers. Dit vereist sterke communicatievaardigheden, aangezien ze vaak de brug vormen tussen verschillende afdelingen en teams.
+
+Daarnaast zijn informatie managers verantwoordelijk voor het analyseren van gegevens om waardevolle inzichten te genereren die de besluitvorming ondersteunen. Ze moeten op de hoogte blijven van ontwikkelingen in data-analyse, privacywetgeving en technologieën zoals kunstmatige intelligentie en machine learning.
+
+In een steeds digitaler wordende wereld is de rol van de informatie manager essentieel voor het waarborgen van een efficiënte en veilige informatiestroom binnen de organisatie, wat uiteindelijk bijdraagt aan het behalen van strategische doelstellingen.
 Business consultant.
 Projectleider ICT.
 Business intelligence specialist.
