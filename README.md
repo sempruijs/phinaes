@@ -17,3 +17,8 @@ BIM
 •	Welke bronnen zijn gebruikt in het onderzoek? Dit is incl. de verslagen van interviews.
 •	Wat zijn handige links waar verdiepende informatie staat?
 
+
+Business consultant.
+Projectleider ICT.
+Business intelligence specialist.
+Functioneel beheerder.
