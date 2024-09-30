@@ -24,7 +24,8 @@ Functioneel beheerder. (sem)
 Informatiearchitect.
 
 Informatieanalist.
-=======
+
+
 Business consultant, 
 
 Een business consultant geeft bedrijven advies over bedrijfskundige vraagstukken, 
@@ -33,7 +34,9 @@ business consultants zorgen ook dat bedrijven meegaan met veranderingen.
 zo moeten ze huidige en toekomstige processen in kaart brengen zodat een bedrijf een mooi overzicht heeft.
 Ook zou je processen moeten kunnen optimaliseren. 
 Omdat dit voor elk bedrijf andere processen heeft is het altijd weer anders.
->>>>>>> Stashed changes
+
+bronnen:
+https://www.profource.com/blog-werken-als-business-consultant/
 
 
 3.	Beroepsproducten
