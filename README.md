@@ -12,11 +12,17 @@ Het manage en aansturen van een ontwikkelteam
 
 Informatiemanager (CIO)
 
+## Business consultant.
+
 Projectleider ICT : De rol van de projectleider kan veranderen afhankelijk van het bedrijf waarvoor hij werkt. Taken zoals de planning,, toelevering, vorderingsstaten,Kwaliteit en reglementering. Maar deze verantwoordelijkheden vallen meestal niet alleen op de projectleider. Bij sommige bedrijven wordt het verdeeld tussen de projectleider en de actoren binnen het bedrijf.
 
 Business intelligence specialist.
 
-Functioneel beheerder. (sem)
+## Functioneel beheerder. (sem)
+
+Een functioneel beheerder is een brug tussen ontwikkelaars en gebruikers.
+Een gebruiker heeft een bepaalde behoefte of probleem en de functioneel beheerder vertaald die problemen naar het ontwikkelteam.
+Ook schrijft hij documentatie en test hij de applicatie of alles werkt zoals hij had verwacht.
 
 Informatiearchitect.
 
@@ -40,8 +46,10 @@ Omdat dit voor elk bedrijf andere processen heeft is het altijd weer anders.
 •	Welke bronnen zijn gebruikt in het onderzoek? Dit is incl. de verslagen van interviews.
 •	Wat zijn handige links waar verdiepende informatie staat?
 
+
 bronnen:
 https://www.profource.com/blog-werken-als-business-consultant/
+https://www.koen.com/werken-in-functioneel-beheer/wat-doet-een-functioneel-beheerder-in-de-ict-taken-en-competenties/
 
 Informatiemanager (CIO)
 Informatiemanager (CIO) : Een informatie manager speelt een cruciale rol binnen organisaties door ervoor te zorgen dat informatie effectief wordt verzameld, beheerd en benut. Hun taken omvatten het ontwikkelen van strategieën voor informatiebeheer, het implementeren van systemen en technologieën om data te verzamelen en op te slaan, en het waarborgen van de kwaliteit en veiligheid van informatie.
