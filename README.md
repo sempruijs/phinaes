@@ -10,10 +10,7 @@ Het manage en aansturen van een ontwikkelteam
 •	Welke banen passen bij deze beroepsrol? Denk in functietitels als bijv. "Product Owner" of "Network Engineer"
 •	Geef een zo rijk mogelijke beschrijving van deze banen.
 
-<<<<<<< Updated upstream
 Informatiemanager (CIO)
-
-Business consultant.
 
 Projectleider ICT : De rol van de projectleider kan veranderen afhankelijk van het bedrijf waarvoor hij werkt. Taken zoals de planning,, toelevering, vorderingsstaten,Kwaliteit en reglementering. Maar deze verantwoordelijkheden vallen meestal niet alleen op de projectleider. Bij sommige bedrijven wordt het verdeeld tussen de projectleider en de actoren binnen het bedrijf.
 
@@ -26,18 +23,13 @@ Informatiearchitect.
 Informatieanalist.
 
 
-Business consultant, 
-
+Business consultant: 
 Een business consultant geeft bedrijven advies over bedrijfskundige vraagstukken, 
 Het einddoel daarbij is altijd om taken, processen en resultaten binnen het bedrijf.
 business consultants zorgen ook dat bedrijven meegaan met veranderingen.
 zo moeten ze huidige en toekomstige processen in kaart brengen zodat een bedrijf een mooi overzicht heeft.
 Ook zou je processen moeten kunnen optimaliseren. 
 Omdat dit voor elk bedrijf andere processen heeft is het altijd weer anders.
-
-bronnen:
-https://www.profource.com/blog-werken-als-business-consultant/
-
 
 3.	Beroepsproducten
 •	Welke IT producten levert iemand in deze beroepsrol op?
@@ -48,6 +40,8 @@ https://www.profource.com/blog-werken-als-business-consultant/
 •	Welke bronnen zijn gebruikt in het onderzoek? Dit is incl. de verslagen van interviews.
 •	Wat zijn handige links waar verdiepende informatie staat?
 
+bronnen:
+https://www.profource.com/blog-werken-als-business-consultant/
 
 Informatiemanager (CIO)
 Business consultant.
