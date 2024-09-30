@@ -18,7 +18,7 @@ Projectleider ICT : De rol van de projectleider kan veranderen afhankelijk van h
 
 Business intelligence specialist.
 
-Functioneel beheerder.
+Functioneel beheerder. (sem)
 
 Informatiearchitect.
 
