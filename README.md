@@ -27,3 +27,5 @@ Business intelligence specialist.
 Functioneel beheerder. (sem)
 Informatiearchitect.
 Informatieanalist.
+
+## bronnen
