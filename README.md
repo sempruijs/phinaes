@@ -18,7 +18,10 @@ BIM
 •	Wat zijn handige links waar verdiepende informatie staat?
 
 
+Informatiemanager (CIO)
 Business consultant.
 Projectleider ICT.
 Business intelligence specialist.
 Functioneel beheerder.
+Informatiearchitect.
+Informatieanalist.
