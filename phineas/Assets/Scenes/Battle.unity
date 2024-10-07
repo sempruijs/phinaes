@@ -1211,6 +1211,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ArchIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &444571189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1344,6 +1356,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ActiIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &556441249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1473,6 +1497,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 580028516}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ArchIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1956,7 +1992,7 @@ GameObject:
   - component: {fileID: 947439665}
   - component: {fileID: 947439664}
   m_Layer: 5
-  m_Name: Healtbar
+  m_Name: Player Healtbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2183,8 +2219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerHealtBar: {fileID: 947439664}
-  enemyHealtBar: {fileID: 947439664}
+  enemyHealtBar: {fileID: 1133243556}
   playerHealt: 10
+  EnemyDeath: 0
 --- !u!4 &1087448381
 Transform:
   m_ObjectHideFlags: 0
@@ -2212,7 +2249,7 @@ GameObject:
   - component: {fileID: 1133243557}
   - component: {fileID: 1133243556}
   m_Layer: 5
-  m_Name: Healtbar
+  m_Name: Enemy Healtbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2366,6 +2403,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 1225548524}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ArchIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2605,6 +2654,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 1276203269}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ActiIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2877,6 +2938,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 1309444118}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ActiIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3183,6 +3256,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ActiIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1473578996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3452,6 +3537,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ActiIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1722912643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3715,6 +3812,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 1800641142}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ArchIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4074,6 +4183,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 1912976839}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 408298641}
+        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
+        m_MethodName: ArchIndexButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

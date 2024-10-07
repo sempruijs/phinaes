@@ -12,14 +12,12 @@ public class HealtManager : MonoBehaviour
     public Image enemyHealtBar;
     public float playerHealt = 10f;
     private float maxHealt;
+    public bool EnemyDeath = false;
+    private bool PlayerDeath = false;
 
     private void Awake()
     {
         instance = this;
-    }
-
-    void Start()
-    {
         maxHealt = playerHealt;
     }
 
@@ -33,7 +31,22 @@ public class HealtManager : MonoBehaviour
     {
         enemyHealt -= damage;
         enemyHealtBar.fillAmount = enemyHealt / maxhealt;
-        return enemyHealt;
+        return enemyHealt; 
+    }
+
+    public void FixedUpdate() 
+    {
+        if (Enemy.Instance.enemyObject.healt == 0 && EnemyDeath == false)
+        {
+            EnemyDeath = true;
+            Debug.Log("Enemy is verslagen");
+        }
+
+        if (playerHealt == 0f && PlayerDeath == false)
+        {
+            PlayerDeath = true;
+            Debug.Log("Player is verslagen");
+        }
     }
 
 }

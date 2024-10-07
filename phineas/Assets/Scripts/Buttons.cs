@@ -7,11 +7,18 @@ using UnityEngine.UI;
 
 public class Buttons : MonoBehaviour
 {
+    public static Buttons Instance;
     public Button[] ArchitectuurButtons;
     public Button[] ActiviteitButtons;
     public int ClickIndex = 0;
     public int ArchitectuurIndex;
     public int ActiviteitIndex;
+    
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public void Achtitectuurlaag_Button(Button clickedButton)
     {
         foreach (Button button in ArchitectuurButtons)
@@ -21,7 +28,6 @@ public class Buttons : MonoBehaviour
                 ClickIndex++;
                 clickedButton.GetComponent<Image>().color = Color.red;
                 clickedButton.enabled = false;
-                ArchitectuurIndex = Array.FindIndex(ArchitectuurButtons, button => button == clickedButton);
                 continue;
             }
             button.interactable = false;
@@ -37,40 +43,27 @@ public class Buttons : MonoBehaviour
                 ClickIndex++;
                 clickedButton.GetComponent<Image>().color = Color.red;
                 clickedButton.enabled = false;
-                ActiviteitIndex = Array.FindIndex(ArchitectuurButtons, button => button == clickedButton);
                 continue;
             }
             button.interactable = false;
         }
     }
 
-    public IEnumerator ButtonsReset()
+    public void ActiIndexButton(int index)
     {
-        ClickIndex = 0;
-        yield return new WaitForSeconds(2);
+        ActiviteitIndex = index;
+    }
 
-        foreach (Button button in ArchitectuurButtons)
-        {
-            button.GetComponent<Image>().color = Color.white;
-            button.enabled = true;
-            button.interactable = true;
-        }
-
-        foreach (Button button in ActiviteitButtons)
-        {
-            button.GetComponent<Image>().color = Color.white;
-            button.enabled = true;
-            button.interactable = true;
-        }
-
-        Enemy.Instance.EnemyTurn(ArchitectuurIndex, ActiviteitIndex);
+    public void ArchIndexButton(int index)
+    {
+        ArchitectuurIndex = index;
     }
 
     public void FixedUpdate()
     {
-        if(ClickIndex == 2)
+        if(ClickIndex == 2 && HealtManager.instance.EnemyDeath == false)
         {
-            StartCoroutine(ButtonsReset());
+            Enemy.Instance.EnemyTurn(ArchitectuurIndex, ActiviteitIndex);
         }
     }
 }
