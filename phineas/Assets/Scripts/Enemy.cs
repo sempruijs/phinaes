@@ -14,6 +14,9 @@ public class Enemy : MonoBehaviour
     private bool archiAanval = false;
     private bool actiAanval = false;
 
+    public Button archiButton;
+    public Button actiButton;
+
     public void Awake()
     {
         // Krijg enemy waarmee je in gevecht raakte
@@ -33,6 +36,7 @@ public class Enemy : MonoBehaviour
             {
                 enemyDamage++;
                 archiAanval = true;
+                archiButton.GetComponent<Image>().color = Color.green;
             }
             else
             {
@@ -47,6 +51,7 @@ public class Enemy : MonoBehaviour
             {
                 actiAanval = true;
                 enemyDamage++;
+                actiButton.GetComponent<Image>().color = Color.green;
             }
             else
             {
@@ -56,7 +61,6 @@ public class Enemy : MonoBehaviour
         }
 
         Debug.Log("Player Damage: " + playerDamage + " - " + "enemy Damage: " + enemyDamage);
-        Debug.Log(enemyObject.healt);
         enemyObject.healt = HealtManager.instance.EnemyTakeDamge(enemyDamage, enemyObject.healt, maxhealt);
         HealtManager.instance.PlayerTakeDamage(playerDamage);
     }

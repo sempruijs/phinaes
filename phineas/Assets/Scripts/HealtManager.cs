@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealtManager : MonoBehaviour
 {
@@ -10,8 +11,13 @@ public class HealtManager : MonoBehaviour
 
     public Image playerHealtBar;
     public Image enemyHealtBar;
+
+    public TextMeshProUGUI playerHpText;
+    public TextMeshProUGUI enemyHpText;
+
     public float playerHealt = 10f;
     private float maxHealt;
+    
     public bool EnemyDeath = false;
     private bool PlayerDeath = false;
 
@@ -19,18 +25,21 @@ public class HealtManager : MonoBehaviour
     {
         instance = this;
         maxHealt = playerHealt;
+        playerHpText.text = playerHealt.ToString();
     }
 
     public void PlayerTakeDamage(float damage)
     {
         playerHealt -= damage;
         playerHealtBar.fillAmount = playerHealt / maxHealt;
+        playerHpText.text = playerHealt.ToString();
     }
 
     public float EnemyTakeDamge(float damage, float enemyHealt, float maxhealt)
     {
         enemyHealt -= damage;
         enemyHealtBar.fillAmount = enemyHealt / maxhealt;
+        enemyHpText.text = enemyHealt.ToString();
         return enemyHealt; 
     }
 
