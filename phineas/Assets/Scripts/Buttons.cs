@@ -28,6 +28,7 @@ public class Buttons : MonoBehaviour
                 ClickIndex++;
                 clickedButton.GetComponent<Image>().color = Color.red;
                 clickedButton.enabled = false;
+                Enemy.Instance.archiButton = clickedButton;
                 continue;
             }
             button.interactable = false;
@@ -43,6 +44,7 @@ public class Buttons : MonoBehaviour
                 ClickIndex++;
                 clickedButton.GetComponent<Image>().color = Color.red;
                 clickedButton.enabled = false;
+                Enemy.Instance.actiButton = clickedButton; 
                 continue;
             }
             button.interactable = false;
