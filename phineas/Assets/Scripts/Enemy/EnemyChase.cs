@@ -49,10 +49,12 @@ public class EnemyChase : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("Player collided");
         if (collision.gameObject.CompareTag("Player"))
         {
-
+            Debug.Log("LoadScene called 1");
             LoadScene("Battle");
+            Debug.Log("LoadScene called");
         }
     }
 

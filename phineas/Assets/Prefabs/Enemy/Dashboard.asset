@@ -22,6 +22,6 @@ MonoBehaviour:
     iedereen hetzelfde beeld kan zien, verkorten bedrijven de time-to-market en produceren
     ze producten van hogere kwaliteit."
   healt: 2
-  enemySprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  enemySprite: {fileID: 21300000, guid: 428d9218d6206d343b84e84fa110f9b2, type: 3}
   achritectuurlaagIndex: 1
   activiteitIndex: 4
