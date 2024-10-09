@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AiChase : MonoBehaviour
+public class EnemyChase : MonoBehaviour
 {
     public GameObject player;
     public float speed = 5f;
@@ -58,7 +58,7 @@ public class AiChase : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            
+
             // Do something with the enemy object
         }
     }
