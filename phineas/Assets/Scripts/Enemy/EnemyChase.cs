@@ -1,7 +1,10 @@
+using EasyTransition;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
+using EasyTransition;
 
 public class EnemyChase : MonoBehaviour
 {
@@ -11,7 +14,10 @@ public class EnemyChase : MonoBehaviour
 
     private float distance;
 
-    SceneManager sceneManager;
+    //scene change variables
+    public TransitionSettings transitionSettings;
+    public float loeadDelay;
+
 
     void Update()
     {
@@ -40,7 +46,12 @@ public class EnemyChase : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Handle collision with the player (e.g., deal damage, trigger event, etc.)
+            LoadScene("Battle");
         }
+    }
+
+    void LoadScene(string _sceneName)
+    {
+        TransitionManager.Instance().Transition(_sceneName,transitionSettings, loeadDelay);
     }
 }
