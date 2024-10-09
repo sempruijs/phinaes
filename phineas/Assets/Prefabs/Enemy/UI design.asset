@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7e3803ab61ada74dacd125f644df7b3, type: 3}
-  m_Name: Enemy 1
+  m_Name: UI design
   m_EditorClassIdentifier: 
-  name: gerard
-  description: 'Gerard doet bim '
+  name: UI design patterns
+  description: Ontwerppatronen voor gebruikersinterfaces (UI) zijn herbruikbare/terugkerende
+    componenten die ontwerpers gebruiken om veelvoorkomende problemen bij het ontwerp
+    van gebruikersinterfaces op te lossen.
   healt: 2
   enemySprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  achritectuurlaagIndex: 3
-  activiteitIndex: 2
+  achritectuurlaagIndex: 1
+  activiteitIndex: 5
