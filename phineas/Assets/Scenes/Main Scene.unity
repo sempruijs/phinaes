@@ -233,16 +233,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9bd6468e6a719840a5b2bc5519068a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemys:
-  - {fileID: 11400000, guid: 88334ee5be38f3a4ab4b283ed6750d1c, type: 2}
-  - {fileID: 11400000, guid: 2f80472e4c586a248bde38fd5d4ff0bb, type: 2}
-  - {fileID: 11400000, guid: 72a4382451bd2f4448eeb0fc57dcb4c6, type: 2}
-  - {fileID: 11400000, guid: e4dffe09ed7665448a7485e7a95ae5c7, type: 2}
+  prefab: {fileID: 9028521181276599644, guid: c5aa38036fc78f84e968b5693a874d27, type: 3}
   spawnPoints:
   - {fileID: 594818272}
   - {fileID: 168225706}
   - {fileID: 1821100550}
   - {fileID: 3219396820934966569}
+  waitTime: 2.5
 --- !u!1001 &594818270
 PrefabInstance:
   m_ObjectHideFlags: 0
