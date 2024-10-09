@@ -46,6 +46,7 @@ public class EnemyChase : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+
             LoadScene("Battle");
         }
     }
@@ -54,4 +55,9 @@ public class EnemyChase : MonoBehaviour
     {
         TransitionManager.Instance().Transition(_sceneName,transitionSettings, loeadDelay);
     }
+
+            // Handle collision with the player (e.g., deal damage, trigger event, etc.)
+        }
+    }
+
 }
