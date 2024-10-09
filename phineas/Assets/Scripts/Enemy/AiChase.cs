@@ -58,7 +58,7 @@ public class AiChase : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Collided with an enemy!");
+            
             // Do something with the enemy object
         }
     }
