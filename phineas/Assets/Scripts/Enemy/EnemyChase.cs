@@ -19,6 +19,11 @@ public class EnemyChase : MonoBehaviour
     public float loeadDelay;
 
 
+    private void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
+
     void Update()
     {
         // Get the distance between the enemy and the player
