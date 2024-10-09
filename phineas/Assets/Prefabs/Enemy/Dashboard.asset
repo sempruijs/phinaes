@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e3803ab61ada74dacd125f644df7b3, type: 3}
+  m_Name: Dashboard
+  m_EditorClassIdentifier: 
+  name: Dashboard
+  description: "Dashboardrapportage communiceert essenti\xEBle bedrijfsgegevens met
+    interactieve, gemakkelijk te begrijpen grafieken. Of u nu verkoopgegevens, projectstatussen
+    of feedback van klanten rapporteert, iedereen in het team heeft snel inzicht
+    in de belangrijkste feiten. Het kan een uitdaging zijn om multifunctionele teams
+    en zakelijke partners op de hoogte te houden van projecten, uitdagingen en marktgegevens.
+    Dashboardrapportage stroomlijnt de verspreiding van relevante informatie. Wanneer
+    iedereen hetzelfde beeld kan zien, verkorten bedrijven de time-to-market en produceren
+    ze producten van hogere kwaliteit."
+  healt: 2
+  enemySprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  achritectuurlaagIndex: 1
+  activiteitIndex: 4
