@@ -103,6 +103,8 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 7
   distanceBetween: 3
+  transitionSettings: {fileID: 11400000, guid: 5d42ad7319df4a8439d74d82f30a60cc, type: 2}
+  loeadDelay: 0.2
 --- !u!114 &1425294926597130608
 MonoBehaviour:
   m_ObjectHideFlags: 0
