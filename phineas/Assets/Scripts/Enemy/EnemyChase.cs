@@ -7,61 +7,40 @@ public class EnemyChase : MonoBehaviour
 {
     public GameObject player;
     public float speed = 5f;
-    public float gridSize = 0.2f;
     public float distanceBetween = 1f;
 
-    private Vector3 targetPosition;
     private float distance;
 
     SceneManager sceneManager;
 
     void Update()
     {
-        //get the distance between the player 
+        // Get the distance between the enemy and the player
         distance = Vector2.Distance(transform.position, player.transform.position);
 
-        // if the player falls whithin distance start moving
+        // If the player falls within the distance threshold, start moving towards them
         if (distance < distanceBetween)
         {
             MoveTowardsPlayer();
         }
     }
 
-    // Single method to handle both direction checking and movement
+    // Method to move the enemy towards the player
     void MoveTowardsPlayer()
     {
+        // Calculate the direction vector from enemy to player
         Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();
+        direction.Normalize(); // Normalize the direction vector to ensure consistent speed
 
-        // Check the dominant direction and set the movement target
-        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
-        {
-            // Move left or right
-            targetPosition = direction.x > 0 ?
-                transform.position + Vector3.right * gridSize :
-                transform.position + Vector3.left * gridSize;
-        }
-        else
-        {
-            // Move up or down
-            targetPosition = direction.y > 0 ?
-                transform.position + Vector3.up * gridSize :
-                transform.position + Vector3.down * gridSize;
-        }
-
-        // Move the enemy directly towards the target position
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+        // Move the enemy in the direction of the player
+        transform.position += (Vector3)direction * speed * Time.deltaTime;
     }
-
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-
-            // Do something with the enemy object
+            // Handle collision with the player (e.g., deal damage, trigger event, etc.)
         }
     }
-
-
 }
