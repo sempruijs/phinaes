@@ -13,6 +13,11 @@ public class EnemyChase : MonoBehaviour
 
     SceneManager sceneManager;
 
+    private void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
+
     void Update()
     {
         // Get the distance between the enemy and the player
