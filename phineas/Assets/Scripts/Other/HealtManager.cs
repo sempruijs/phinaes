@@ -4,10 +4,16 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class HealtManager : MonoBehaviour
 {
     public static HealtManager instance;
+
+    public AudioSource winMusic;
+    public AudioSource backgroundMusic;
+
+    public GameObject verslagen;
 
     public Image playerHealtBar;
     public Image enemyHealtBar;
@@ -48,6 +54,9 @@ public class HealtManager : MonoBehaviour
         if (Enemy.Instance.enemyObject.healt == 0 && EnemyDeath == false)
         {
             EnemyDeath = true;
+            backgroundMusic.Stop();
+            winMusic.Play(0);
+            StartCoroutine(LoadPlayerScene());
             Debug.Log("Enemy is verslagen");
         }
 
@@ -55,7 +64,13 @@ public class HealtManager : MonoBehaviour
         {
             PlayerDeath = true;
             Debug.Log("Player is verslagen");
+            verslagen.SetActive(true);
         }
     }
 
+    public IEnumerator LoadPlayerScene()
+    {
+        yield return new WaitForSeconds(12);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
 }

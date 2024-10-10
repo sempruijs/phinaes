@@ -21,6 +21,6 @@ MonoBehaviour:
     dit te doen, kunnen ze een aantal onderzoeksmethoden gebruiken, waaronder observatie
     ter plaatse, interviews en data-analyses."
   healt: 2
-  enemySprite: {fileID: 21300000, guid: 428d9218d6206d343b84e84fa110f9b2, type: 3}
+  enemySprite: {fileID: 21300000, guid: bcf246c3555044f439ea74d5488df595, type: 3}
   achritectuurlaagIndex: 2
   activiteitIndex: 2
